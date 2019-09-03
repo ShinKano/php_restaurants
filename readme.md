@@ -1,6 +1,5 @@
 # Restaurant list for baguio
 
-
 ## LIST of DB Tables
 ### restaurants table
 - name
@@ -12,30 +11,32 @@
 - email
 - password
 
-
+## 
 ## Roadmap (Phase 2)
 - maps
 - likes counter
 - rating
 - menu
 
+##
 ## CRUD functions for DB
 ### CREATE
-DONE - create users (register)
-DONE - create restaurants (add restaurant)
+- create users (register)
+- create restaurants (add restaurant)
 ### READ
-TO DO - read user (display user list)
-TO DO - - search users
-DONE - - user login
-DONE - read restaurant table (display restaurants)
-DONE - - search restaurants
+- read user (display user list)
+  - search users
+  - user login
+- read restaurant table (display restaurants)
+  - search restaurants
 ### UPDATE
-TO DO - update user (update profile)
-TO DO - - change password
-TO DO - update restaurant (update restaurant)
+- update user (update profile)
+  - change password
+- update restaurant (update restaurant)
 ### DELETE
-TO DO - delete restaurant
+- delete restaurant
 
+##
 ## Progress
 1. Create initial files
 1.1. style.css = link after bootstrap css link in head
