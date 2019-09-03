@@ -37,6 +37,11 @@ xhttp.onreadystatechange = function() {
         }
        document.getElementById("restaurants").innerHTML = html;
     }
+
+
+
+
+    
 };
 xhttp.open("GET", "functions.php?f=getRestaurants<?php
   if(isset($_GET['search'])) echo '&search='.$_GET['search'];
