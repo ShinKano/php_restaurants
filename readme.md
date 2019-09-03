@@ -1,43 +1,42 @@
-#Restaurant list for baguio
+# Restaurant list for baguio
 
 
-##LIST of DB Tables
-###restaurants table
+## LIST of DB Tables
+### restaurants table
 - name
 - location
 - type of food - array
 - price range
 - picture
-
-###Users table
+### Users table
 - email
 - password
 
 
-##phase 2
+## Roadmap (Phase 2)
 - maps
 - likes counter
 - rating
 - menu
 
-##CRUD functions for DB
-###CREATE
+## CRUD functions for DB
+### CREATE
 DONE - create users (register)
 DONE - create restaurants (add restaurant)
-###READ
+### READ
 TO DO - read user (display user list)
 TO DO - - search users
 DONE - - user login
 DONE - read restaurant table (display restaurants)
 DONE - - search restaurants
-###UPDATE
+### UPDATE
 TO DO - update user (update profile)
 TO DO - - change password
 TO DO - update restaurant (update restaurant)
-###DELETE
+### DELETE
 TO DO - delete restaurant
 
-##Progress
+## Progress
 1. Create initial files
 1.1. style.css = link after bootstrap css link in head
 1.2. db.php = mysqli connection script
@@ -48,3 +47,4 @@ TO DO - delete restaurant
 4. Display list of restaurants in index.php
 4.1. Search Form
 5. Create add restaurant page (add.php)
+6. .....
